@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="Zhaoxi.AirCompression.View.Pages.ReportPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zhaoxi.AirCompression.View.Pages"
+             xmlns:base="clr-namespace:Zhaoxi.AirCompression.Base"
+             DataContext="{Binding Source={StaticResource locator},Path=Report}"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Zhaoxi.AirCompression;component/Assets/Styles/ButtonStyles.xaml"/>
+                <ResourceDictionary Source="/Zhaoxi.AirCompression;component/Assets/Styles/DataGridStyle.xaml"/>
+
+                <ResourceDictionary>
+                    <ControlTemplate TargetType="CheckBox" x:Key="PointCheckBoxTemp">
+                        <Border CornerRadius="3" Background="Transparent" Name="back" Margin="0,3">
+                            <Grid Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Border Width="16" Height="16" Background="#44FFFFFF" CornerRadius="4" Name="back1">
+                                    <TextBlock Text="&#xe666;" FontFamily="{StaticResource iconfont}" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                               Name="txt" FontSize="10"/>
+                                </Border>
+
+                                <ContentControl Content="{TemplateBinding Content}" Grid.Column="1" TextBlock.Foreground="White"
+                                                VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                                HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="Background" Value="#991e90ff" TargetName="back"/>
+                                <Setter Property="Foreground" Value="White" TargetName="txt"/>
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="False">
+                                <Setter Property="Foreground" Value="transparent" TargetName="txt"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid Margin="20,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="请选择需要显示的列" VerticalAlignment="Center" Foreground="White"/>
+        <StackPanel Orientation="Horizontal" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <Button Content="刷新" Height="30" Width="90" Style="{StaticResource NormalButtonStyle}" Margin="5,0"
+                    Command="{Binding RefreshCommand}"/>
+            <Button Content="导出" Height="30" Width="60" Style="{StaticResource NormalButtonStyle}"
+                    Command="{Binding ExportCommand}"/>
+        </StackPanel>
+
+        <ItemsControl ItemsSource="{Binding AllColumms}" Grid.Row="1">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox Content="{Binding Header}" Foreground="White" IsChecked="{Binding IsSelected}"
+                                  Template="{StaticResource PointCheckBoxTemp}" VerticalContentAlignment="Center"
+                                  Command="{Binding DataContext.ChooseColumnCommand,RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                  CommandParameter="{Binding}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <DataGrid ItemsSource="{Binding AllDatas}" 
+                  AutoGenerateColumns="False" CanUserReorderColumns="False" Grid.Column="1" Grid.Row="1"
+                  CanUserDeleteRows="False" CanUserAddRows="False" CanUserResizeRows="False" Background="#CCFFFFFF" BorderThickness="0"
+                  base:DataGridHelper.Columns="{Binding Columns}" Margin="10,0">
+        </DataGrid>
+    </Grid>
+</UserControl>

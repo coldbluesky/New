@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zhaoxi.Digital.Mobile.Views.DevicePage"
+             Background="#F7F9FA"
+             Shell.NavBarIsVisible="False"
+             Title="DevicePage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <!--背景-->
+        <Frame BorderColor="Transparent" HasShadow="False" CornerRadius="0" Grid.RowSpan="3" Margin="-1">
+            <Frame.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="#1a32c3" Offset="0"/>
+                    <GradientStop Color="#7a36d6" Offset="0.9"/>
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+
+        <!--页头-->
+        <Grid>
+            <Button Text="←" HorizontalOptions="Start" VerticalOptions="Center" Background="#11000000" CornerRadius="5" BorderWidth="0" Command="{Binding RouteBack}"/>
+            <Label Text="设备看板" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White"/>
+        </Grid>
+
+        <!--设备图片-->
+        <CarouselView ItemsSource="{Binding DeviceList}" Grid.Row="1" Scrolled="CarouselView_Scrolled">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding DeviceImage}" HeightRequest="150"/>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <!--具体的设备信息-->
+        <Frame Grid.Row="2" Grid.RowSpan="2" Margin="10,0" 
+               VerticalOptions="Start" BorderColor="Transparent">
+            <Grid VerticalOptions="Start">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label HeightRequest="1" BackgroundColor="#EEE" VerticalOptions="End" Padding="0"/>
+                <Label Text="{Binding DeviceName}" FontSize="15" TextColor="#7a36d6" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+                <CollectionView ItemsSource="{Binding DeviceProperties}" Grid.Row="1" Margin="0,10">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid HeightRequest="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding PropName}" TextColor="#888" VerticalOptions="Center"/>
+                                <Label Text="{Binding PropValue}" Grid.Column="1" VerticalOptions="Center"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </Grid>
+        </Frame>
+
+        <Frame Grid.Row="4" Margin="10" Padding="5"
+               VerticalOptions="Start" BorderColor="Transparent">
+            <VerticalStackLayout>
+                <Button Margin="10,5" Text="手动启动" Padding="7"
+                        Command="{Binding StartCommand}"/>
+                <Button Margin="10,5" Text="手动卸载" Padding="7"/>
+                <Button Margin="10,5" Text="紧急停止" Padding="7" Background="Red"/>
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>

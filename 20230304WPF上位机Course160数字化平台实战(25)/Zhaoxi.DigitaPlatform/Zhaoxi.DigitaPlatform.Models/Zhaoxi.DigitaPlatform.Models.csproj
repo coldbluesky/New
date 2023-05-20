@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.DeviceAccess\Zhaoxi.DigitaPlatform.DeviceAccess.csproj" />
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.IDataAccess\Zhaoxi.DigitaPlatform.IDataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

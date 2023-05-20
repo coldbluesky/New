@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Zhaoxi.AirCompression.Components.Filter"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zhaoxi.AirCompression.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Viewbox>
+        <Grid>
+            <Ellipse Width="30" Height="20" Fill="#FF6DB5F1" VerticalAlignment="Top"/>
+            <Border Width="30" Height="55" Background="#FF2B8BDC"  VerticalAlignment="Top" Margin="0,10,0,0"/>
+            <Border Width="80" Height="23"  VerticalAlignment="Top" Margin="0,18,0,0" RenderTransformOrigin="0.5,0.5"
+                    BorderBrush="LightGray" BorderThickness="6,0" Padding="0,1">
+                <Border.RenderTransform>
+                    <RotateTransform Angle="-6"/>
+                </Border.RenderTransform>
+                <Border Background="#FF6DB5F1"/>
+            </Border>
+            <Path Data="M4.261167E-38,0.0075731102 L1.8414076,24.784975 C2.0526669,26.633493 4.7285185,35.136878 15.079926,35.136878 25.431333,35.136878 26.787604,28.922136 27.474197,25.489173 L29.989132,1.4901239E-09 z" Fill="#FF1E7ECF" Margin="0,65,0,-5" HorizontalAlignment="Center" Width="30"/>
+        </Grid>
+    </Viewbox>
+</UserControl>

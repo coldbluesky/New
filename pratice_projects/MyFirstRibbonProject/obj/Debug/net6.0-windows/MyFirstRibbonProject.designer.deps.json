@@ -1,0 +1,199 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ControlzEx/5.0.1": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.31",
+          "System.Text.Json": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/ControlzEx.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.15"
+          }
+        }
+      },
+      "Dirkster.AvalonDock/4.70.2": {
+        "runtime": {
+          "lib/net5.0-windows7.0/AvalonDock.dll": {
+            "assemblyVersion": "4.70.2.0",
+            "fileVersion": "4.70.2.0"
+          }
+        },
+        "resources": {
+          "lib/net5.0-windows7.0/ca-ES/AvalonDock.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "lib/net5.0-windows7.0/cs-CZ/AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0-windows7.0/de/AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0-windows7.0/es/AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0-windows7.0/fr/AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0-windows7.0/hu/AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net5.0-windows7.0/it/AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0-windows7.0/ja/AvalonDock.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net5.0-windows7.0/ko/AvalonDock.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net5.0-windows7.0/nl-BE/AvalonDock.resources.dll": {
+            "locale": "nl-BE"
+          },
+          "lib/net5.0-windows7.0/pl/AvalonDock.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net5.0-windows7.0/pt/AvalonDock.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net5.0-windows7.0/ro/AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net5.0-windows7.0/ru/AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0-windows7.0/sv/AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net5.0-windows7.0/zh-Hans/AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net5.0-windows7.0/zh-Hant/AvalonDock.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Dirkster.AvalonDock.Themes.Metro/4.70.2": {
+        "dependencies": {
+          "Dirkster.AvalonDock": "4.70.2"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/AvalonDock.Themes.Metro.dll": {
+            "assemblyVersion": "4.70.2.0",
+            "fileVersion": "4.70.2.0"
+          }
+        }
+      },
+      "Dirkster.AvalonDock.Themes.VS2013/4.70.2": {
+        "dependencies": {
+          "Dirkster.AvalonDock": "4.70.2"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/AvalonDock.Themes.VS2013.dll": {
+            "assemblyVersion": "4.70.2.0",
+            "fileVersion": "4.70.2.0"
+          }
+        }
+      },
+      "Fluent.Ribbon/9.0.4": {
+        "dependencies": {
+          "ControlzEx": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Fluent.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.4.0"
+          }
+        }
+      },
+      "HandyControl/3.3.0": {
+        "runtime": {
+          "lib/net5.0/HandyControl.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.31.10800"
+          }
+        }
+      },
+      "System.Text.Json/5.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.220.61120"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControlzEx/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DVJJmmnKXcVh3Bs2gKpAdPCT8HrkYTagSbFg0P9xHjp8dox9bKeaoVj9VGhPRzP9+LHs5MUXxN07/oGqeXNNcg==",
+      "path": "controlzex/5.0.1",
+      "hashPath": "controlzex.5.0.1.nupkg.sha512"
+    },
+    "Dirkster.AvalonDock/4.70.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M55QfWmeRTZbcJHh6erl8RarPMfB9z94HyiGad8HHHlQzJuHQYuyI3/kSFrNj5XVqf22GSgmC3FMjICEaFQlRg==",
+      "path": "dirkster.avalondock/4.70.2",
+      "hashPath": "dirkster.avalondock.4.70.2.nupkg.sha512"
+    },
+    "Dirkster.AvalonDock.Themes.Metro/4.70.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w6g7OP6vx8/kxJF/OiZBHChwNaSAcabtWeHby8D3MvV8UshipXs3fTQhyLeRUJC4Dt0ItlmNmsqAzs6CvLSyhg==",
+      "path": "dirkster.avalondock.themes.metro/4.70.2",
+      "hashPath": "dirkster.avalondock.themes.metro.4.70.2.nupkg.sha512"
+    },
+    "Dirkster.AvalonDock.Themes.VS2013/4.70.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yq+pRZN8Lf3KO5eHx19oY190JmM9Og1dQD4nwnrEvQahluxDKudDDJYIKYxdoC+mcqC2HuBSyy4kD7oPntfnew==",
+      "path": "dirkster.avalondock.themes.vs2013/4.70.2",
+      "hashPath": "dirkster.avalondock.themes.vs2013.4.70.2.nupkg.sha512"
+    },
+    "Fluent.Ribbon/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nMg58+lfqa5hmU6Wgv6f8JfHv/5rr2XD3slnl3cyjhBOFnWUu7pJnzLKNwmKQBJWpSCXcG+7ikhf5l5/7shlhA==",
+      "path": "fluent.ribbon/9.0.4",
+      "hashPath": "fluent.ribbon.9.0.4.nupkg.sha512"
+    },
+    "HandyControl/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LY38yByPYXOP2kfQkneedgSE+Ps6XWsXId9hBoEgvef4/mdToqWNSueA6kg1u/nKCV1E8zdpI+ZvevDnlyF10Q==",
+      "path": "handycontrol/3.3.0",
+      "hashPath": "handycontrol.3.3.0.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LZpuf82ACZWldmfMuv3CTUMDh3o0xo0uHUaybR5HgqVLDBJJ9RZLykplQ/bTJd0/VDt3EhD4iDgUgbdIUAM+Kg==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.31",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/UM3UK1dXKl8Ybysg/21gM4S8DJgkR+yLU8JwqCVbuNqQNImelntgYFAN5QxR8sJJ1kMx//hOUdf0lltosi8cQ==",
+      "path": "system.text.json/5.0.1",
+      "hashPath": "system.text.json.5.0.1.nupkg.sha512"
+    }
+  }
+}

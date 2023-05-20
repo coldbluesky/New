@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="Zhaoxi.AirCompression.Components.Dryer2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zhaoxi.AirCompression.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Viewbox>
+        <Grid Width="400" Height="400">
+            <Border Width="301" Height="42"  VerticalAlignment="Top" HorizontalAlignment="Center" RenderTransformOrigin="0,1"
+                    Margin="0,332,0,0" Background="#BBB">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <SkewTransform AngleX="48"/>
+                        <RotateTransform Angle="-7"/>
+                    </TransformGroup>
+                </Border.RenderTransform>
+            </Border>
+            <Border Width="45" Height="271" Background="#A8A8A8" HorizontalAlignment="Left"  VerticalAlignment="Top" 
+                    Margin="157,76,0,0" BorderBrush="White" BorderThickness="0,1,0,0">
+                <Border.RenderTransform>
+                    <SkewTransform AngleY="-7"/>
+                </Border.RenderTransform>
+            </Border>
+            <Grid>
+                <Ellipse Width="100" Height="40" Fill="#CACACA" HorizontalAlignment="Left" VerticalAlignment="Top"
+                     Margin="60,64,0,0" RenderTransformOrigin="0.5,0.5">
+                    <Ellipse.RenderTransform>
+                        <RotateTransform Angle="-3"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse Width="100" Height="40" Fill="#A8A8A8" HorizontalAlignment="Left" VerticalAlignment="Top"
+                     Margin="60,312,0,0" RenderTransformOrigin="0.5,0.5">
+                    <Ellipse.RenderTransform>
+                        <RotateTransform Angle="-3"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Border Width="100" Height="250" Background="#CACACA" HorizontalAlignment="Left"  VerticalAlignment="Top" 
+                    Margin="60,85,0,0" BorderBrush="White" BorderThickness="0,5">
+                    <Border.RenderTransform>
+                        <SkewTransform AngleY="-3"/>
+                    </Border.RenderTransform>
+                </Border>
+            </Grid>
+            <Grid Margin="0,-10,90,0" VerticalAlignment="Top" HorizontalAlignment="Right">
+                <Ellipse Width="100" Height="40" Fill="#CACACA" HorizontalAlignment="Left" VerticalAlignment="Top"
+                     Margin="53,60,0,0" RenderTransformOrigin="0.5,0.5">
+                    <Ellipse.RenderTransform>
+                        <RotateTransform Angle="-3"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse Width="100" Height="40" Fill="#A8A8A8" HorizontalAlignment="Left" VerticalAlignment="Top"
+                     Margin="53,302,0,0" RenderTransformOrigin="0.5,0.5">
+                    <Ellipse.RenderTransform>
+                        <RotateTransform Angle="-3"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Border Width="100" Height="245" Background="#CACACA" HorizontalAlignment="Left"  VerticalAlignment="Top" 
+                    Margin="53,79,0,0" BorderBrush="White" BorderThickness="0,5">
+                    <Border.RenderTransform>
+                        <SkewTransform AngleY="-3"/>
+                    </Border.RenderTransform>
+                </Border>
+            </Grid>
+            <Border Width="200" Height="20"  VerticalAlignment="Top" HorizontalAlignment="Center" RenderTransformOrigin="1,0"
+                    BorderBrush="LightGray" BorderThickness="0,0,6,0" Background="Gray" Margin="0,2,4,0">
+                <Border.RenderTransform>
+                    <RotateTransform Angle="-6"/>
+                </Border.RenderTransform>
+            </Border>
+            <Border Width="20" Height="37" Background="Gray" VerticalAlignment="Top" HorizontalAlignment="Left"
+                    Margin="100,29,0,0"/>
+            <Border Width="20" Height="35" Background="Gray" VerticalAlignment="Top" HorizontalAlignment="Left"
+                    Margin="259,17,0,0"/>
+            <Border Width="301" Height="20"  VerticalAlignment="Bottom" HorizontalAlignment="Right" RenderTransformOrigin="0,1"
+                    Margin="0,0,52,7" Background="#A8A8A8">
+                <Border.RenderTransform>
+                    <SkewTransform AngleY="-7"/>
+                </Border.RenderTransform>
+            </Border>
+            <Border Width="50" Height="20"  VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0,1"
+                    Margin="-2,338,0,0" Background="Gray">
+                <Border.RenderTransform>
+                    <SkewTransform AngleY="35"/>
+                </Border.RenderTransform>
+            </Border>
+        </Grid>
+    </Viewbox>
+</UserControl>

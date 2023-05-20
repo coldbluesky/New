@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <sys:String x:Key="SystemName">朝夕空压站数字化管理平台</sys:String>
+    <sys:String x:Key="Login">登  录</sys:String>
+    <sys:String x:Key="EnterMask_UN">请输入用户名</sys:String>
+    <sys:String x:Key="EnterMask_PWD">请输入密码</sys:String>
+
+    <sys:String x:Key="LoginExceptionHeader">登录失败！</sys:String>
+    <sys:String x:Key="LoginUserError">用户名不能为空！请输入用户名</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.ContextMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="ContextMenu" Height="450" Width="800">
+    <DockPanel>
+        <Label Width="100" Height="50" Background="AliceBlue" Content="右键菜单" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18">
+            <Label.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="文件">
+                        <MenuItem Header="新建"/>
+                        <MenuItem Header="打开"/>
+                    </MenuItem>
+                    <MenuItem Header="编辑"></MenuItem>
+                </ContextMenu>
+            </Label.ContextMenu>
+        </Label>
+    </DockPanel>
+</Window>

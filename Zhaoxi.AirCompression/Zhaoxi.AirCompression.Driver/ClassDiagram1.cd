@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zhaoxi.AirCompression.Driver.Base.Address.ModbusAddress" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAEAABAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Address\ModbusAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Base.CommProperty" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABAAAAAAABAAAAAAAAAQhAKEAAAAAAAADEAAAUAgA=</HashCode>
+      <FileName>Base\CommProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Base.PointProperty" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAEAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEAA=</HashCode>
+      <FileName>Base\PointProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Component.ComponentSerial" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAEAYIAAIAoBAAAAAAAAAACQAAA=</HashCode>
+      <FileName>Component\ComponentSerial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Component.ComponentSocket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQIAIIAoAAAAAAAEAAACAAAg=</HashCode>
+      <FileName>Component\ComponentSocket.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.348" Collapsed="true" />
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Component.SerialTask" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAkAABAAAAAAAAAIAAAAAAAAAQAA=</HashCode>
+      <FileName>Component\SerialTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Execute.ExecuteBase" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAAAAAAAAAAAAAAAgAAAAIAIAAAAAAAEAAAA=</HashCode>
+      <FileName>Execute\ExecuteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Execute.ModbusBase" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQgAQAAAAAAABAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Execute\ModbusBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Execute.ModbusRtu" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAgAAAAAAAAgAAAQIABAAAAAIAEAAAA=</HashCode>
+      <FileName>Execute\ModbusRtu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Execute.S7Net" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAgAAAAAUIgAABAgBAAQAABAAAAAAAAAABA=</HashCode>
+      <FileName>Execute\S7Net.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Communication" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAKAAAAAAAACAAAAgAAAAIFAQABAAAAEAAAA=</HashCode>
+      <FileName>Communication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Result&lt;T&gt;" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAIAAgAAA=</HashCode>
+      <FileName>Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Result" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Base.Address.SiemensAddress" Collapsed="true">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAhEAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Base\Address\SiemensAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Execute.ModbusAscii" Collapsed="true">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAIAAAgAAAQAABAAAAAIAAAAAA=</HashCode>
+      <FileName>Execute\ModbusAscii.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zhaoxi.AirCompression.Driver.Execute.ModbusTcp" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAgAAAAAABAAAAAIAAAAAA=</HashCode>
+      <FileName>Execute\ModbusTcp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Zhaoxi.AirCompression.Driver.Component.IComponent" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQIAAAAgAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Component\IComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Zhaoxi.AirCompression.Driver.Base.EndianType" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACIAAAAAAIAAAAAAAAABAAAAAAAgAAAIAiAAAAI=</HashCode>
+      <FileName>Base\EndianType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Zhaoxi.AirCompression.Driver.Base.Protocols" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAQAgAAAAAACAAAAAgEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Protocols.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Zhaoxi.AirCompression.Driver.Base.SiemensAreaTypes" Collapsed="true">
+    <Position X="13.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAQAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\SiemensAreaTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

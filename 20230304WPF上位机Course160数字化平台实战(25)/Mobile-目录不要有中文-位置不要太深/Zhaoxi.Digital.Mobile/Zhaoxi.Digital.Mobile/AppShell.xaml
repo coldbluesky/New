@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Zhaoxi.Digital.Mobile.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:v="clr-namespace:Zhaoxi.Digital.Mobile.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent Title="Login" ContentTemplate="{DataTemplate v:LoginPage}"
+                  Route="LoginPage"/>
+    
+    <!--主页面-->
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate v:MainPage}"
+        Route="MainPage" />
+
+    <!--设备页面-->
+    <ShellContent Title="Device"
+              ContentTemplate="{DataTemplate v:DevicePage}"
+              Route="DevicePage"/>
+
+</Shell>

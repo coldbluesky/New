@@ -1,0 +1,15 @@
+D:\pratice_projects\aSimplePratice\bin\Debug\net6.0\aSimplePratice.exe
+D:\pratice_projects\aSimplePratice\bin\Debug\net6.0\aSimplePratice.deps.json
+D:\pratice_projects\aSimplePratice\bin\Debug\net6.0\aSimplePratice.runtimeconfig.json
+D:\pratice_projects\aSimplePratice\bin\Debug\net6.0\aSimplePratice.dll
+D:\pratice_projects\aSimplePratice\bin\Debug\net6.0\aSimplePratice.pdb
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\aSimplePratice.csproj.AssemblyReference.cache
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\aSimplePratice.GeneratedMSBuildEditorConfig.editorconfig
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\aSimplePratice.AssemblyInfoInputs.cache
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\aSimplePratice.AssemblyInfo.cs
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\aSimplePratice.csproj.CoreCompileInputs.cache
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\aSimplePratice.dll
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\refint\aSimplePratice.dll
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\aSimplePratice.pdb
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\aSimplePratice.genruntimeconfig.cache
+D:\pratice_projects\aSimplePratice\obj\Debug\net6.0\ref\aSimplePratice.dll

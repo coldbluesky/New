@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Zhaoxi.DigitaPlatform.Views_odkfzcad_wpftmp
+build_property.ProjectDir = D:\Zhaoxi.EDU\Jovan\01-VIP\[2021]WPF上位机工业互联\20230224WPF上位机Course157数字化平台实战(22)\Zhaoxi.DigitaPlatform\Zhaoxi.DigitaPlatform.Views\

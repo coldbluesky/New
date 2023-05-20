@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AdsorptionDryer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AirCompressor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Filter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FreezeDryer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GasTank.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HeightRule.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HorizontalPipeline.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Meter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeeJoints.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VerticalPipeline.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WidthRule.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AdsorptionDryer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AirCompressor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Filter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FreezeDryer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GasTank.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HeightRule.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HorizontalPipeline.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Meter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RAJoints.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeeJoints.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VerticalPipeline.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WidthRule.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

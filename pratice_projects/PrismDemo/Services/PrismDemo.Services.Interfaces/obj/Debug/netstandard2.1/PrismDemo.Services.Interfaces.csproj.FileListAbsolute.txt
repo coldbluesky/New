@@ -1,0 +1,10 @@
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\bin\Debug\netstandard2.1\PrismDemo.Services.Interfaces.deps.json
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\bin\Debug\netstandard2.1\PrismDemo.Services.Interfaces.dll
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\bin\Debug\netstandard2.1\PrismDemo.Services.Interfaces.pdb
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\obj\Debug\netstandard2.1\PrismDemo.Services.Interfaces.csproj.AssemblyReference.cache
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\obj\Debug\netstandard2.1\PrismDemo.Services.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\obj\Debug\netstandard2.1\PrismDemo.Services.Interfaces.AssemblyInfoInputs.cache
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\obj\Debug\netstandard2.1\PrismDemo.Services.Interfaces.AssemblyInfo.cs
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\obj\Debug\netstandard2.1\PrismDemo.Services.Interfaces.csproj.CoreCompileInputs.cache
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\obj\Debug\netstandard2.1\PrismDemo.Services.Interfaces.dll
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services.Interfaces\obj\Debug\netstandard2.1\PrismDemo.Services.Interfaces.pdb

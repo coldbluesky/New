@@ -1,0 +1,10 @@
+D:\pratice_projects\计算器\计算器\bin\Debug\计算器.exe.config
+D:\pratice_projects\计算器\计算器\bin\Debug\计算器.exe
+D:\pratice_projects\计算器\计算器\bin\Debug\计算器.pdb
+D:\pratice_projects\计算器\计算器\obj\Debug\计算器.csproj.AssemblyReference.cache
+D:\pratice_projects\计算器\计算器\obj\Debug\计算器.Form1.resources
+D:\pratice_projects\计算器\计算器\obj\Debug\计算器.Properties.Resources.resources
+D:\pratice_projects\计算器\计算器\obj\Debug\计算器.csproj.GenerateResource.cache
+D:\pratice_projects\计算器\计算器\obj\Debug\计算器.csproj.CoreCompileInputs.cache
+D:\pratice_projects\计算器\计算器\obj\Debug\计算器.exe
+D:\pratice_projects\计算器\计算器\obj\Debug\计算器.pdb

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "iq4qKQw71VasRzFuxBg2FxFn+ksyTIbzKMoKpsJfLFZMBu4f4r2xxVfKcHwJR9WK3/zxmgK+rAOYKhxXvKfrRw==",
+  "success": true,
+  "projectFilePath": "D:\\pratice_projects\\MyFirstRibbonProject\\MyFirstRibbonProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\dirkster.avalondock\\4.70.2\\dirkster.avalondock.4.70.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\dirkster.avalondock.themes.metro\\4.70.2\\dirkster.avalondock.themes.metro.4.70.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\dirkster.avalondock.themes.vs2013\\4.70.2\\dirkster.avalondock.themes.vs2013.4.70.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\fluent.ribbon\\9.0.4\\fluent.ribbon.9.0.4.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\handycontrol\\3.3.0\\handycontrol.3.3.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

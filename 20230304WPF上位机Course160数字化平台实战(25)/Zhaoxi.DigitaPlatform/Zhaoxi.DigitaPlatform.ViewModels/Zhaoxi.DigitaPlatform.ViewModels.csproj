@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MQTTnet.Extensions.ManagedClient" Version="3.1.2" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="System.IO.Ports" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.Common\Zhaoxi.DigitaPlatform.Common.csproj" />
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.DataAccess\Zhaoxi.DigitaPlatform.DataAccess.csproj" />
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.DeviceAccess\Zhaoxi.DigitaPlatform.DeviceAccess.csproj" />
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.IDataAccess\Zhaoxi.DigitaPlatform.IDataAccess.csproj" />
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.Models\Zhaoxi.DigitaPlatform.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <sys:String x:Key="SystemName">ZHAOXI AIR COMPRESSOR STATION</sys:String>
+    <sys:String x:Key="Login">Login</sys:String>
+    <sys:String x:Key="EnterMask_UN">Please enter user name</sys:String>
+    <sys:String x:Key="EnterMask_PWD">Please enter password</sys:String>
+
+    <sys:String x:Key="LoginExceptionHeader">Login failed!</sys:String>
+    <sys:String x:Key="LoginUserError">Username can not be empty! please enter user name</sys:String>
+</ResourceDictionary>

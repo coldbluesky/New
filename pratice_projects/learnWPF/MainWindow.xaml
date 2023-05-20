@@ -1,0 +1,71 @@
+﻿<Window x:Class="learnWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:learnWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="500">
+    <Grid Background="AliceBlue" Margin="10">
+        <DockPanel>
+            <Grid DockPanel.Dock="Top" Height="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15">IP</TextBlock>
+                <TextBlock Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15">端口</TextBlock>
+                <TextBox x:Name="IPAdress" Grid.Column="1" Margin="5 8 10 8"></TextBox>
+                <TextBox x:Name="port" Grid.Column="3" Margin="5 8 10 8"></TextBox>
+            </Grid>
+            <Grid DockPanel.Dock="Left" Width="240">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center">地址</TextBlock>
+                <TextBox x:Name="adress" Grid.Column="1" Width="150" Height="25"  Margin="0 0 45 0"/>
+                <WrapPanel Grid.Row="1" Grid.Column="1">
+                    <Button x:Name="shortRead" Content="short读取" Click="Button_Click"/>
+                    <Button x:Name="intRead" Content="int读取"/>
+                    <Button x:Name="boolRead" Content="bool读取"/>
+                    <Button x:Name="stringRead" Content="字符串读取"/>
+                </WrapPanel>
+                
+                <TextBlock  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" FontSize="15">结果</TextBlock>
+                <TextBox x:Name="result" Grid.Row="2" Grid.Column="1"  />
+            </Grid>
+            <Grid DockPanel.Dock="Right" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center">数据</TextBlock>
+                <TextBox x:Name="data" Grid.Row="0" Grid.Column="1" Width="150" Height="25"  Margin="0 0 45 0"/>
+                <WrapPanel Grid.Row="1" Grid.Column="1">
+                    <Button Content="short写入" Click="Button_Click_1"/>
+                    <Button Content="int写入"/>
+                    <Button Content="bool写入"/>
+                    <Button Content="字符串写入"/>
+                </WrapPanel>
+                <ComboBox x:Name="MyC" Grid.Row="2" Width="200" SelectionChanged="ComboBox_SelectionChanged">
+                    
+                </ComboBox>
+
+            </Grid>
+
+        </DockPanel>
+    </Grid>
+</Window>

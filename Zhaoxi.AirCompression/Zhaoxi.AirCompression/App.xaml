@@ -1,0 +1,11 @@
+﻿<Application x:Class="Zhaoxi.AirCompression.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Zhaoxi.AirCompression"
+             xmlns:vm="clr-namespace:Zhaoxi.AirCompression.ViewModel"
+             ShutdownMode="OnExplicitShutdown">
+    <Application.Resources>
+        <vm:ViewModelLocator x:Key="locator"/>
+        <FontFamily x:Key="iconfont">/Zhaoxi.AirCompression;component/Assets/Fonts/#iconfont</FontFamily>
+    </Application.Resources>
+</Application>

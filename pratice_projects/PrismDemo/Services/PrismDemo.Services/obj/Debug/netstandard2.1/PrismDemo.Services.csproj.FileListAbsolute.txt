@@ -1,0 +1,13 @@
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\bin\Debug\netstandard2.1\PrismDemo.Services.deps.json
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\bin\Debug\netstandard2.1\PrismDemo.Services.dll
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\bin\Debug\netstandard2.1\PrismDemo.Services.pdb
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\bin\Debug\netstandard2.1\PrismDemo.Services.Interfaces.dll
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\bin\Debug\netstandard2.1\PrismDemo.Services.Interfaces.pdb
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\obj\Debug\netstandard2.1\PrismDemo.Services.csproj.AssemblyReference.cache
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\obj\Debug\netstandard2.1\PrismDemo.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\obj\Debug\netstandard2.1\PrismDemo.Services.AssemblyInfoInputs.cache
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\obj\Debug\netstandard2.1\PrismDemo.Services.AssemblyInfo.cs
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\obj\Debug\netstandard2.1\PrismDemo.Services.csproj.CoreCompileInputs.cache
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\obj\Debug\netstandard2.1\PrismDemo.Services.csproj.CopyComplete
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\obj\Debug\netstandard2.1\PrismDemo.Services.dll
+D:\pratice_projects\PrismDemo\Services\PrismDemo.Services\obj\Debug\netstandard2.1\PrismDemo.Services.pdb

@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Views\\Zhaoxi.DigitaPlatform.Views.csproj": {}
+  },
+  "projects": {
+    "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Assets\\Zhaoxi.DigitaPlatform.Assets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Assets\\Zhaoxi.DigitaPlatform.Assets.csproj",
+        "projectName": "Zhaoxi.DigitaPlatform.Assets",
+        "projectPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Assets\\Zhaoxi.DigitaPlatform.Assets.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Assets\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\Administrator\\Desktop\\新建文件夹 (3)\\WpfApp1\\Unity": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Common\\Zhaoxi.DigitaPlatform.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Common\\Zhaoxi.DigitaPlatform.Common.csproj",
+        "projectName": "Zhaoxi.DigitaPlatform.Common",
+        "projectPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Common\\Zhaoxi.DigitaPlatform.Common.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\Administrator\\Desktop\\新建文件夹 (3)\\WpfApp1\\Unity": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Components\\Zhaoxi.DigitaPlatform.Components.csproj": {
+                "projectPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Components\\Zhaoxi.DigitaPlatform.Components.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Components\\Zhaoxi.DigitaPlatform.Components.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Components\\Zhaoxi.DigitaPlatform.Components.csproj",
+        "projectName": "Zhaoxi.DigitaPlatform.Components",
+        "projectPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Components\\Zhaoxi.DigitaPlatform.Components.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Components\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\Administrator\\Desktop\\新建文件夹 (3)\\WpfApp1\\Unity": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Views\\Zhaoxi.DigitaPlatform.Views.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Views\\Zhaoxi.DigitaPlatform.Views.csproj",
+        "projectName": "Zhaoxi.DigitaPlatform.Views",
+        "projectPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Views\\Zhaoxi.DigitaPlatform.Views.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Views\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\Administrator\\Desktop\\新建文件夹 (3)\\WpfApp1\\Unity": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Assets\\Zhaoxi.DigitaPlatform.Assets.csproj": {
+                "projectPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Assets\\Zhaoxi.DigitaPlatform.Assets.csproj"
+              },
+              "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Common\\Zhaoxi.DigitaPlatform.Common.csproj": {
+                "projectPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Common\\Zhaoxi.DigitaPlatform.Common.csproj"
+              },
+              "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Components\\Zhaoxi.DigitaPlatform.Components.csproj": {
+                "projectPath": "D:\\Zhaoxi.EDU\\Jovan\\01-VIP\\[2021]WPF上位机工业互联\\20230119WPF上位机Course150数字化平台实战(15)\\Zhaoxi.DigitaPlatform\\Zhaoxi.DigitaPlatform.Components\\Zhaoxi.DigitaPlatform.Components.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.39, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

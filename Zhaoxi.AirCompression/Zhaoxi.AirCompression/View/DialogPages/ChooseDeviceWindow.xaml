@@ -1,0 +1,38 @@
+﻿<Window x:Class="Zhaoxi.AirCompression.View.DialogPages.ChooseDeviceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zhaoxi.AirCompression.View"
+        DataContext="{Binding Source={StaticResource locator},Path=ChooseDevice}"
+        FontFamily="Microsoft YaHei" FontWeight="ExtraLight" FontSize="13" Background="Transparent" ResizeMode="NoResize"
+        mc:Ignorable="d" WindowStartupLocation="CenterOwner"
+        Title="设备匹配" Height="260" Width="350">
+    <Window.Resources>
+        <ResourceDictionary Source="/Zhaoxi.AirCompression;component/Assets/Styles/ButtonStyles.xaml"/>
+    </Window.Resources>
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="-1" CaptionHeight="50"/>
+    </WindowChrome.WindowChrome>
+    <Grid Margin="30,10">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="设备匹配" FontSize="20" VerticalAlignment="Center"/>
+        <TextBlock Text="请选择适当的设备记录，以指定到当前选中对象" Grid.Row="1" VerticalAlignment="Center" Foreground="#888"/>
+        <ComboBox ItemsSource="{Binding Devices}" Grid.Row="2" Height="35"
+                  VerticalContentAlignment="Center"
+                      DisplayMemberPath="DeviceName"
+                      SelectedValuePath="DeviceNum"
+                      SelectedValue="{Binding DeviceId}"/>
+        <TextBlock Text="如果没有合适的记录，请先在[参数配置]页面维护设备信息" Grid.Row="3" VerticalAlignment="Center" FontSize="11" Foreground="#888"/>
+        <Button Content="确    定" Grid.Row="4" Height="33" Background="#1e90ff" Foreground="White" BorderThickness="0"
+                Style="{StaticResource NormalButtonStyle}"
+                Command="{Binding CloseCommand}"
+                CommandParameter="{Binding Path=.,RelativeSource={RelativeSource AncestorType=Window}}"/>
+    </Grid>
+</Window>

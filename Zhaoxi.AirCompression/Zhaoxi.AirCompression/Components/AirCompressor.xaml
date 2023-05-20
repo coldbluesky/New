@@ -1,0 +1,66 @@
+﻿<local:ComponentBase x:Class="Zhaoxi.AirCompression.Components.AirCompressor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zhaoxi.AirCompression.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:Bool2VisibilityConverter x:Key="Bool2VisibilityConverter"/>
+        <local:Bool2BrushConverter x:Key="Bool2BrushConverter"/>
+    </UserControl.Resources>
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="180"/>
+        </Grid.ColumnDefinitions>
+        <Viewbox VerticalAlignment="Bottom" HorizontalAlignment="Left" >
+            <Grid>
+                <Grid Margin="0,80,0,0" MouseLeftButtonDown="Path_MouseLeftButtonDown" Background="Transparent">
+                    <Path Data="M0,0 0,220 90,300 90,60" Fill="Gray"/>
+                    <Path Data="M0,0 90,60 390,30 290 -30" Fill="Gray"/>
+                    <Path Data="M90,300 90,60 390,30 390,260" Fill="LightGray"/>
+                    <Line X1="180" X2="180" Y1="20" Y2="270" StrokeThickness="2" Stroke="Gray"/>
+                    <Line X1="280" X2="280" Y1="20" Y2="260" StrokeThickness="2" Stroke="Gray"/>
+                    <Ellipse Width="10" Height="10" Fill="DarkGray"/>
+                    <Ellipse Width="10" Height="10" Fill="DarkGray" Margin="0,3,80,0"/>
+                    <Border Height="22" Background="DarkGray" Margin="90,0,0,0" VerticalAlignment="Bottom">
+                        <Border.RenderTransform>
+                            <SkewTransform AngleY="-7.7"/>
+                        </Border.RenderTransform>
+                    </Border>
+                    <Border Width="50" Height="40" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,30,80">
+                        <Border.Background>
+                            <Binding Path="State" RelativeSource="{RelativeSource AncestorType=UserControl,Mode=FindAncestor}">
+                                <Binding.Converter>
+                                    <local:Bool2BrushConverter TrueColor="#FF82FFFF" FalseColor="#7787BFBF"/>
+                                </Binding.Converter>
+                            </Binding>
+                        </Border.Background>
+                        <Border.RenderTransform>
+                            <SkewTransform AngleY="-5"/>
+                        </Border.RenderTransform>
+                    </Border>
+
+                </Grid>
+                <Path Data="M0 0 290 -30 390 30 390,260 90,300 0,220z" Fill="#552B8BDC" Margin="0,80,0,0" MouseLeftButtonDown="Path_MouseLeftButtonDown"
+                      Visibility="{Binding IsSelected,RelativeSource={RelativeSource AncestorType=UserControl},
+                    Converter={StaticResource Bool2VisibilityConverter}}"/>
+                <Line X1="0" Y1="80" X2="80" Y2="0" Stroke="#88FF0000" StrokeThickness="2"
+                      VerticalAlignment="Top" HorizontalAlignment="Right"
+                      Visibility="{Binding ShowAlarm,RelativeSource={RelativeSource AncestorType=UserControl,Mode=FindAncestor},Converter={StaticResource Bool2VisibilityConverter}}"/>
+            </Grid>
+        </Viewbox>
+        <Border Height="30" BorderThickness="1" BorderBrush="#88FF0000" CornerRadius="5" Background="#66051432"
+                SnapsToDevicePixels="True" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,-15,0,0"
+                Visibility="{Binding ShowAlarm,RelativeSource={RelativeSource AncestorType=UserControl,Mode=FindAncestor},Converter={StaticResource Bool2VisibilityConverter}}">
+            <Border.Effect>
+                <DropShadowEffect Color="Red" ShadowDepth="0"/>
+            </Border.Effect>
+            <TextBlock Text="{Binding AlarmInfo}" Foreground="White" FontSize="11"
+                       VerticalAlignment="Center" HorizontalAlignment="Center"
+                       Margin="10,0"/>
+        </Border>
+    </Grid>
+</local:ComponentBase>

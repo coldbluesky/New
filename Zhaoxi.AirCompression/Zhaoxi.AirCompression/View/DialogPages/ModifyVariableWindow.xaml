@@ -1,0 +1,104 @@
+﻿<Window x:Class="Zhaoxi.AirCompression.View.DialogPages.ModifyVariableWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zhaoxi.AirCompression.View.DialogPages"
+        DataContext="{Binding Source={StaticResource locator},Path=ModifyVariable}"
+        FontFamily="Microsoft YaHei" FontWeight="ExtraLight" FontSize="13" Background="Transparent" ResizeMode="NoResize"
+        mc:Ignorable="d" WindowStartupLocation="CenterOwner"
+        Title="点位信息编辑" Height="550" Width="650">
+    <Window.Resources>
+        <ResourceDictionary Source="/Zhaoxi.AirCompression;component/Assets/Styles/ButtonStyles.xaml"/>
+    </Window.Resources>
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="-1"/>
+    </WindowChrome.WindowChrome>
+    <Grid Margin="30,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="点位信息编辑" FontSize="20" VerticalAlignment="Center"/>
+
+        <Grid Grid.Row="2" Margin="0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="点位编号" VerticalAlignment="Center"/>
+            <Border CornerRadius="3" BorderThickness="1" BorderBrush="#DDD" Grid.Column="1" Height="30">
+                <TextBox Text="{Binding Variable.VariableNum,UpdateSourceTrigger=PropertyChanged}" BorderThickness="0" Height="30"
+                     VerticalContentAlignment="Center" Margin="5,0"/>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="3" Margin="0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="点位描述" VerticalAlignment="Center"/>
+            <Border CornerRadius="3" BorderThickness="1" BorderBrush="#DDD" Grid.Column="1" Height="30">
+                <TextBox Text="{Binding Variable.VariableDescription,UpdateSourceTrigger=PropertyChanged}" BorderThickness="0" Height="30"
+                     VerticalContentAlignment="Center" Margin="5,0"/>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="4" Margin="0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="点位地址" VerticalAlignment="Center"/>
+            <Border CornerRadius="3" BorderThickness="1" BorderBrush="#DDD" Grid.Column="1" Height="30">
+                <TextBox Text="{Binding Variable.VarAddress,UpdateSourceTrigger=PropertyChanged}" BorderThickness="0" Height="30"
+                     VerticalContentAlignment="Center" Margin="5,0"/>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="5" Margin="0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="数据类型" VerticalAlignment="Center"/>
+            <ComboBox Grid.Column="1" Height="28" SelectedValue="{Binding Variable.VarType}" SelectedIndex="0"
+                      VerticalContentAlignment="Center" ItemsSource="{Binding VariableTypes}"
+                      DisplayMemberPath="TypeName" SelectedValuePath="TypeName"/>
+        </Grid>
+        <Grid Grid.Row="6" Margin="0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="偏移量" VerticalAlignment="Center"/>
+            <ComboBox SelectedValue="{Binding Variable.Operator}" VerticalContentAlignment="Center" Grid.Column="1" Height="28"
+                      ItemsSource="{Binding Operators}" DisplayMemberPath="OperatorText" SelectedValuePath="Operator"
+                      SelectedIndex="0" Margin="0,0,5,0" HorizontalContentAlignment="Center"/>
+            <Border CornerRadius="3" BorderThickness="1" BorderBrush="#DDD" Grid.Column="2" Height="30">
+                <TextBox Text="{Binding Variable.OffsetValue,UpdateSourceTrigger=PropertyChanged}" BorderThickness="0" Height="30"
+                     VerticalContentAlignment="Center" Margin="5,0"/>
+            </Border>
+        </Grid>
+
+        <TabControl Grid.Row="7" Margin="0,15">
+            <TabItem Header="报警条件"/>
+            <TabItem Header="联控条件"/>
+        </TabControl>
+
+        <StackPanel Grid.Row="8" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <Button Content="保存" Height="30" Command="{Binding ConfirmCommand}"  Width="90" Margin="10,0"
+                Style="{StaticResource NormalButtonStyle}" Background="Orange" Foreground="White"
+                CommandParameter="{Binding Path=.,RelativeSource={RelativeSource AncestorType=Window}}"/>
+            <Button Content="取消" Height="30" Command="{Binding ConfirmCommand}"  Width="50"
+                    Style="{StaticResource NormalButtonStyle}"
+                CommandParameter="{Binding Path=.,RelativeSource={RelativeSource AncestorType=Window}}"/>
+        </StackPanel>
+    </Grid>
+</Window>

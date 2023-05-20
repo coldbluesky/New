@@ -1,0 +1,10 @@
+D:\pratice_projects\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\pratice_projects\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\pratice_projects\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\pratice_projects\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
+D:\pratice_projects\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\pratice_projects\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\pratice_projects\ConsoleApp\obj\Debug\ConsoleApp.pdb
+D:\pratice_projects\ConsoleApp\bin\Debug\Newtonsoft.Json.dll
+D:\pratice_projects\ConsoleApp\bin\Debug\Newtonsoft.Json.xml
+D:\pratice_projects\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zhaoxi.Digital.Mobile.Views.MainPage"
+             Background="#F7F9FA"
+             Shell.NavBarIsVisible="False">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Ellipse WidthRequest="700" HeightRequest="400" Margin="0,-200,50,50" Grid.RowSpan="2" VerticalOptions="Start">
+                <Ellipse.Fill>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#4454c5" Offset="0.5"/>
+                        <GradientStop Color="#252b69" Offset="1"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+
+            <!--标题-->
+            <Label Text="朝夕MES" TextColor="Red" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <!--旋转木马:轮播图  4个  -->
+            <CarouselView Grid.Row="1" ItemsSource="{Binding CarsouelList}" Grid.RowSpan="2"
+                          IndicatorView="iv">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="0" HasShadow="True" Margin="10,0">
+                            <Image Source="{Binding Image}" Aspect="AspectFill">
+                            </Image>
+                        </Frame>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <IndicatorView x:Name="iv" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center"
+                           IndicatorColor="LightGray" SelectedIndicatorColor="Orange"/>
+
+            <!--常用功能-->
+            <Label Text="常用功能" Grid.Row="3" VerticalOptions="End" Margin="10,0" FontAttributes="Bold" FontSize="13" TextColor="#CCC"/>
+            <Frame BackgroundColor="White" Grid.Row="4" BorderColor="Transparent" Margin="10,15"
+                   HasShadow="False"/>
+            <CollectionView ItemsSource="{Binding OftenList}" Grid.Row="4" Margin="20" VerticalOptions="Center">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="5"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition Height="30"/>
+                            </Grid.RowDefinitions>
+                            <ImageButton Source="{Binding ButtonIcon}" 
+                                         CommandParameter="{Binding}" 
+                                         Command="{Binding OpenPage}"
+                                         VerticalOptions="Start" Padding="0" Margin="0,5"
+                                         HeightRequest="30" WidthRequest="30"/>
+                            <Label Text="{Binding Text}" FontSize="12" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" TextColor="#555"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!--全部功能列表-->
+            <Label Text="全部功能" Grid.Row="5" VerticalOptions="Start" Margin="10,0" FontAttributes="Bold" FontSize="13" TextColor="#CCC"/>
+            <CollectionView Grid.Row="6" ItemsSource="{Binding FuncList}" IsGrouped="True" Margin="10,0">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="5"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding Name}" FontSize="12" Background="White" 
+                               Padding="10,5" FontAttributes="Bold" TextColor="#888"/>
+                    </DataTemplate>
+                </CollectionView.GroupHeaderTemplate>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition Height="30"/>
+                            </Grid.RowDefinitions>
+                            <ImageButton Source="{Binding ButtonIcon}" CommandParameter="{Binding}" VerticalOptions="Start" Padding="0" Margin="0,5"
+                                         HeightRequest="25" WidthRequest="25"/>
+                            <Label Text="{Binding Text}" FontSize="12" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" TextColor="#555"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

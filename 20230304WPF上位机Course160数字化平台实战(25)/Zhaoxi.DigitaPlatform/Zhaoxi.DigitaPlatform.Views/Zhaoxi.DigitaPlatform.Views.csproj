@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.Assets\Zhaoxi.DigitaPlatform.Assets.csproj" />
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.Common\Zhaoxi.DigitaPlatform.Common.csproj" />
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.Components\Zhaoxi.DigitaPlatform.Components.csproj" />
+    <ProjectReference Include="..\Zhaoxi.DigitaPlatform.ViewModels\Zhaoxi.DigitaPlatform.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

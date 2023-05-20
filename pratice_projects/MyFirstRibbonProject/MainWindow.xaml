@@ -1,0 +1,85 @@
+﻿<Fluent:RibbonWindow x:Class="MyFirstRibbonProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyFirstRibbonProject"
+        xmlns:avalon="https://github.com/Dirkster99/AvalonDock"
+        xmlns:Fluent="urn:fluent-ribbon"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:pp="https://www.cnblogs.com/pumbaa" 
+        mc:Ignorable="d"
+        Title="我的第一个Ribbon" Height="450" Width="800">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+        <Fluent:Ribbon Grid.Row="0" ShowQuickAccessToolBarAboveRibbon="True">
+            <Fluent:Ribbon.Menu>
+                <Fluent:Backstage CloseOnEsc="True"></Fluent:Backstage>
+            </Fluent:Ribbon.Menu>
+                <Fluent:RibbonTabItem Header="Home">
+                <Fluent:RibbonGroupBox Header="Color"  Grid.IsSharedSizeScope="True">
+                        <Fluent:Button Header="Green" SizeDefinition="Middle"></Fluent:Button>
+                    <Fluent:Button Header="Grey " SizeDefinition="middle"></Fluent:Button>
+                    <Fluent:Button Header="red" SizeDefinition="Middle"></Fluent:Button>
+                    </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox Header="Animal"  Grid.IsSharedSizeScope="True">
+                    <Fluent:Button Header="dog"></Fluent:Button>
+                    <Fluent:Button Header="cat"></Fluent:Button>
+                    <Fluent:Button Header="cow"></Fluent:Button>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox >
+                    <Fluent:TextBox Header="header"></Fluent:TextBox>
+                    <Fluent:ComboBox Header="my header"></Fluent:ComboBox>
+                    <Fluent:Spinner Header="my long header"></Fluent:Spinner>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="car">
+                <Fluent:RibbonGroupBox Header="豪车">
+                    <Fluent:Button Header="法拉利"></Fluent:Button>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:Ribbon.QuickAccessItems>
+                <Fluent:QuickAccessMenuItem IsChecked="True">
+                    <Fluent:Button Header="使用手册"/>
+                </Fluent:QuickAccessMenuItem>
+                <Fluent:QuickAccessMenuItem IsChecked="True">
+                    <Fluent:Button Header="恢复默认布局"/>
+                </Fluent:QuickAccessMenuItem>
+            </Fluent:Ribbon.QuickAccessItems>
+        </Fluent:Ribbon>
+            
+        <avalon:DockingManager Grid.Row="1">
+            <avalon:DockingManager.Theme>
+                <avalon:Vs2013LightTheme/>
+            </avalon:DockingManager.Theme>
+            <avalon:LayoutRoot>
+                <avalon:LayoutPanel Orientation="Horizontal">
+                    <avalon:LayoutAnchorablePaneGroup DockMinWidth="240" FloatingWidth="240">
+                        <avalon:LayoutAnchorablePane x:Name="panelLeft">
+                            <avalon:LayoutAnchorable Title="Left1"></avalon:LayoutAnchorable>
+                            <avalon:LayoutAnchorable Title="Left2"></avalon:LayoutAnchorable>
+                        </avalon:LayoutAnchorablePane>
+                    </avalon:LayoutAnchorablePaneGroup>
+                    <avalon:LayoutPanel Orientation="Vertical">
+                        <avalon:LayoutDocumentPaneGroup>
+                            <avalon:LayoutDocumentPane x:Name="panelTop">
+                                <avalon:LayoutDocument Title="Top1"></avalon:LayoutDocument>
+                                <!--<avalon:LayoutDocument Title="Top2"></avalon:LayoutDocument>-->
+                            </avalon:LayoutDocumentPane>
+                        </avalon:LayoutDocumentPaneGroup>
+                    </avalon:LayoutPanel>
+                </avalon:LayoutPanel>
+            </avalon:LayoutRoot>
+        </avalon:DockingManager>
+        <hc:SimplePanel x:Name="bottomolumn" Grid.Row="2" Height="20"
+                        Width="{Binding Width,ElementName=maingrid}"
+                        Background="#CDDEE4" Grid.ColumnSpan="2" Margin="0,0,177,0">
+        </hc:SimplePanel>
+    </Grid>
+       
+</Fluent:RibbonWindow>
+

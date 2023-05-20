@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp1.DatagridAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="DatagridAdd" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <DataGrid x:Name="userGrid" ItemsSource="{Binding user}" AutoGenerateColumns="False" Height="300">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" IsReadOnly="True" />
+                    <DataGridTextColumn Header="Age" Binding="{Binding Age}" IsReadOnly="True" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button Width="50" Click="AddUserButton_Click" Content="更改"/>
+            <TextBox Width="80" x:Name="box"/>
+            <Button Content="textboxshow" Click="Button_Click"/>
+        </StackPanel>
+     
+    </Grid>
+</Window>

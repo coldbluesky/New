@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="Zhaoxi.AirCompression.Components.AirStorage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zhaoxi.AirCompression.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:Bool2VisibilityConverter x:Key="Bool2VisibilityConverter"/>
+        <local:Bool2BrushConverter x:Key="Bool2BrushConverter"/>
+    </UserControl.Resources>
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="180"/>
+        </Grid.ColumnDefinitions>
+        <Viewbox>
+            <Grid>
+                <Path Data="M471.04 128h71.68v71.68H471.04z" Fill="#C7C7C7"></Path>
+                <Path Data="M394.9568 809.6768v87.04h31.1296l15.6672-87.04z" Fill="#999"></Path>
+                <Path Data="M619.1104 816.93184v79.78496h-31.1296l-15.6672-87.04z" Fill="#999" Margin="0,-20,0,20"></Path>
+                <Path Data="M2.9387359E-39,46.552437 C173.50604,24.456759 178.16886,23.790642 378.42446,1.7516231E-46 L378.88,533.25465 378.68685,505.31971 C191.92077,524.71731 184.21902,524.90277 0.98830811,544.0776 L2.9387359E-39,46.552437 z" Fill="#CACACA" Margin="318,230,59,127"></Path>
+                <Path Data="M0,71.68 C25.96864,23.89504 88.8832,1.6704784E-52 188.74368,1.6704784E-52 338.52928,1.6704784E-52 380.28465,72.842816 379.17008,72.918123 272.07695,80.153998 195.10662,81.189473 195.10662,81.189473 107.93643,80.094624 0,71.68 0,71.68 z" Fill="#CACACA" Margin="318,180,58,638"
+                      RenderTransformOrigin="0.5,1">
+                    <Path.RenderTransform>
+                        <TransformGroup>
+                            <RotateTransform Angle="-5"/>
+                        </TransformGroup>
+                    </Path.RenderTransform>
+                </Path>
+                <Path Data="M378.88,2.925508E-13 L380.81962,1.0588375 C380.02602,34.308118 337.73056,76.8 189.44,76.8 39.64928,76.8 -3.868434E-45,33.39264 -3.868434E-45,2.925508E-13 -3.868434E-45,2.925508E-13 378.88,2.925508E-13 378.88,2.925508E-13 z" Fill="#CACACA" Margin="318,774,57,50" RenderTransformOrigin="0,0">
+                    <Path.RenderTransform>
+                        <RotateTransform Angle="-5"/>
+                    </Path.RenderTransform>
+                </Path>
+                <Path Data="M512 384m-40.96 0a40.96 40.96 0 1 0 81.92 0 40.96 40.96 0 1 0-81.92 0Z" Fill="#8D9399"></Path>
+                <Path Data="M512 384m-35.84 0a35.84 35.84 0 1 0 71.68 0 35.84 35.84 0 1 0-71.68 0Z" Fill="#EFF0F1"></Path>
+                <Path Data="M-1.6704779E-51,254.28184 L69.372865,247.50691 C72.787905,257.74691 76.020569,267.84635 76.020569,278.08635 76.020569,288.32635 74.117446,295.7667 70.702406,306.0067 L-1.6704779E-51,315.72184 z M423.0307,5.53049 L462.91693,-1.3458252E-08 462.91693,61.44 424.36024,65.359823 z" Fill="#C7C7C7" Margin="271,375,21,207"></Path>
+
+                <Path Data="M747.52 369.04a30.72 7.68 90 1 0 0 61.44 30.72 7.68 90 1 0 0-61.44Z" Fill="#C7C7C7" Margin="-14,6,14,-6"></Path>
+                <Path Data="M273.92 628.64a30.72 17.68 90 1 0 0 61.44 30.72 17.68 90 1 0 0-61.44Z" Fill="#8D9399"></Path>
+                <Path Data="M1.945686,0.11520793 L383.14113,-2.8815448E-09 380.69745,20.532166 -4.7754458E-39,21.301925 z" Fill="#A8A8A8"
+                      RenderTransformOrigin="0.5,0.5" Margin="313,732,30,147">
+                    <Path.RenderTransform>
+                        <RotateTransform Angle="-5"/>
+                    </Path.RenderTransform>
+                </Path>
+                <Path Data="M2.8082469,-2.736911E-47 A0,0,0,0,0,191.54312,7.7678811 C254.68808,7.7678811 319.34132,6.4929876 382.48628,1.3064276 L380.35324,23.681339 A0,0,0,0,0,191.54312,31.115081 C128.39816,31.115081 63.14496,28.236489 1.1754943E-38,23.049929 L2.8082469,-2.736911E-47 z" Fill="#A8A8A8"
+                      RenderTransformOrigin="0.5,0.5" Margin="317,252,56,616">
+                    <Path.RenderTransform>
+                        <RotateTransform Angle="-5"/>
+                    </Path.RenderTransform>
+                </Path>
+                <Path Data="M501.76 389.12h20.48l-10.24-30.72z" Fill="#C3C7CB"></Path>
+                <Path Data="M522.24 389.12l-10.24 25.6-10.24-25.6z" Fill="#939393"></Path>
+                <Line X1="0" Y1="200" X2="150" Y2="0" Stroke="#88FF0000" StrokeThickness="5"
+                      VerticalAlignment="Top" HorizontalAlignment="Right"
+                      Visibility="{Binding ShowAlarm,RelativeSource={RelativeSource AncestorType=UserControl,Mode=FindAncestor},Converter={StaticResource Bool2VisibilityConverter}}"/>
+            </Grid>
+        </Viewbox>
+        <Border Height="30" BorderThickness="1" BorderBrush="#88FF0000" CornerRadius="5" Background="#66051432"
+                SnapsToDevicePixels="True" Grid.Column="1" VerticalAlignment="Top" Margin="0,-15,0,0"
+                Visibility="{Binding ShowAlarm,RelativeSource={RelativeSource AncestorType=UserControl,Mode=FindAncestor},Converter={StaticResource Bool2VisibilityConverter}}">
+            <Border.Effect>
+                <DropShadowEffect Color="Red" ShadowDepth="0"/>
+            </Border.Effect>
+            <TextBlock Text="报警提示！报警提示！报警提示！" Foreground="White" FontSize="11"
+                       VerticalAlignment="Center" HorizontalAlignment="Center"
+                       Margin="10,0"/>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,16 @@
+D:\pratice_projects\ObservableCollection\ObservableCollection\bin\Debug\ObservableCollection.exe.config
+D:\pratice_projects\ObservableCollection\ObservableCollection\bin\Debug\ObservableCollection.exe
+D:\pratice_projects\ObservableCollection\ObservableCollection\bin\Debug\ObservableCollection.pdb
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection.csproj.AssemblyReference.cache
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection.csproj.SuggestedBindingRedirects.cache
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\MainWindow.g.cs
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\App.g.cs
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection_MarkupCompile.cache
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection_MarkupCompile.lref
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\MainWindow.baml
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection.g.resources
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection.Properties.Resources.resources
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection.csproj.GenerateResource.cache
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection.csproj.CoreCompileInputs.cache
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection.exe
+D:\pratice_projects\ObservableCollection\ObservableCollection\obj\Debug\ObservableCollection.pdb
